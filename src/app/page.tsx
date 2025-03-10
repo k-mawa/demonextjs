@@ -181,10 +181,10 @@ export default function Home() {
             </div>
             <div className="relative h-96 rounded-none overflow-hidden shadow-xl">
               <Image
-                src="https://images.unsplash.com/photo-1596133141493-78e4cb3eea75?q=80&w=2070&auto=format&fit=crop"
+                src="IMG_farm.svg"
                 alt="ブドウ畑の風景"
                 fill
-                className="object-cover grayscale"
+                className="object-cover"
               />
             </div>
           </div>
