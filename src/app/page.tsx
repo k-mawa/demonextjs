@@ -251,7 +251,7 @@ export default function Home() {
                 <div className="text-center">
                   <Link
                     href="/contact"
-                    className="inline-block bg-blue-400 hover:bg-blue-300 text-white font-bold py-3 px-8 rounded-none transition-colors"
+                    className="inline-block bg-blue-500 hover:bg-blue-400 text-white font-bold py-3 px-8 rounded-none transition-colors"
                   >
                     見学予約はこちら
                   </Link>
