@@ -3,6 +3,7 @@ import Link from "next/link";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { BiSolidWine } from "react-icons/bi";
+import { GiJapan } from "react-icons/gi";
 
 export default function Home() {
   return (
@@ -81,9 +82,10 @@ export default function Home() {
       {/* 日本酒セクション */}
       <section id="sake" className="py-20 bg-gray-50 dark:bg-gray-800">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-16 text-primary dark:text-primary">
-            日本酒
-          </h2>
+          <div className="flex items-center justify-center gap-2 text-3xl md:text-4xl font-bold text-center mb-16 text-blue-600">
+            <GiJapan />
+            <span>日本酒</span>
+          </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="order-2 md:order-1 relative h-96 rounded-none overflow-hidden shadow-xl">
@@ -139,7 +141,7 @@ export default function Home() {
       <section id="wine" className="py-20 bg-white dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="container mx-auto px-4 flex justify-center items-center">
-            <div className="flex items-center  gap-2 text-purple-500 text-3xl md:text-4xl font-bold text-center mb-16 text-primary">
+            <div className="flex items-center gap-2 text-purple-500 text-3xl md:text-4xl font-bold text-center mb-16">
               <BiSolidWine />
               <span>ワイン</span>
             </div>
