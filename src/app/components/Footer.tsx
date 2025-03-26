@@ -3,6 +3,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import farmerImage from "./farmers.jpg";
+import "./animations.css";
 
 export default function Footer() {
   return (
@@ -152,20 +153,20 @@ export default function Footer() {
           </div>
         </div>
         
-        {/* 農家さんセクション - デスクトップでの並列表示のために修正 */}
+        {/* 農家さんセクション  */}
         <div className="mt-12 bg-white dark:bg-gray-800 rounded-lg p-6 shadow-sm">
           <div className="flex flex-col lg:flex-row items-center gap-8">
-            {/* 左：テキスト */}
+            {/* テキスト */}
             <div className="lg:w-1/2 w-full lg:text-left text-center">
               <h3 className="text-lg font-semibold mb-2 text-black dark:text-white">契約農家さんたちから一言</h3>
               <p className="text-gray-600 dark:text-gray-400">
-                『私たちが、原料となるお米もブドウも
+                『私たちが、お米もブドウも原料から
                 <br />
                 手間暇と愛情を込めて、真面目に丁寧に作っています。』
               </p>
             </div>
             
-            {/* 右：画像 */}
+            {/* 画像 */}
             <div className="lg:w-1/2 w-full flex justify-center lg:justify-end">
               <Image
                 src={farmerImage}
@@ -173,7 +174,21 @@ export default function Footer() {
                 height={300}
                 alt="farmersImage"
                 className="rounded-2xl max-w-xs"
-              />
+                />
+                {/* animation.css */}
+                  <ul className="circles">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                </ul>
+              
             </div>
           </div>
         </div>
