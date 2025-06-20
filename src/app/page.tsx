@@ -14,19 +14,19 @@ export default function Home() {
       <section className="relative h-screen">
         <div className="absolute inset-0">
           <Image
-            src="https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=1974&auto=format&fit=crop"
-            alt="長野県の美しい山々と田園風景"
+            src="/IMG_7613.jpg"
+            alt="大きな木"
             fill
             priority
             className="object-cover grayscale"
           />
-          <div className="absolute inset-0 bg-black bg-opacity-60"></div>
+          <div className="absolute inset-0 bg-opacity-60"></div>
         </div>
 
         <div className="relative h-full flex flex-col items-center justify-center text-center text-white px-4">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">信濃酒造</h1>
           <p className="text-xl md:text-2xl mb-8 max-w-3xl">
-            長野県の自然が育む、伝統の日本酒と新たな挑戦のワイン
+            美しい水と空気が育む、伝統の日本酒と、新たな挑戦のワイン
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
