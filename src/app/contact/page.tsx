@@ -14,7 +14,7 @@ export default function Contact() {
       <Header />
       <main className="min-h-screen py-16">
         <div className="container mx-auto px-4">
-          <h1 className="text-4xl font-bold text-center mb-12 text-black dark:text-white">
+          <h1 className="text-4xl font-bold text-center mb-12 text-blue dark:text-white">
             お問い合わせ
           </h1>
 

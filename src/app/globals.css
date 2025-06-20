@@ -2,9 +2,10 @@
 
 :root {
   --background: #ffffff;
-  --foreground: blue;
-  --primary: skyblue;
-  --secondary: gray;
+  --foreground: skyblue;
+  --primary: blue;
+  --secondary: lightblue;
+
   --accent: #777777;
   --muted: #f5f5f5;
 }
